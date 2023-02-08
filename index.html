@@ -1,37 +1,83 @@
 <!DOCTYPE html>
 <html lang="en">
-
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" type="text/css" href="./assets/css/style.css">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" type="text/css" href="./assets/css/style.css" />
     <title>Domonique's Landing Page</title>
-</head>
+  </head>
 
-<body>
+  <body>
     <header>
-        <nav>
-            <ul>
-                <li> <a href="https://github.com/">Github</a></li>
-                <li> <a href="#">Portfolio</a></li>
-                <li> <a href="#contact">Contact</a></li>
-            </ul>
-        </nav>
+      <img src="/assets/images/logo.png" class="logo" alt="Logo" />
+      <ul>
+        <li><a href="https://github.com/">Github</a></li>
+        <li><a href="#">Portfolio</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
     </header>
-
-    <main>
+    <section class="title">
+      <div>
         <h1>My New Website</h1>
-        <figure>
-            <img src="./assets/images/Bootcamp-Student-Learning-to-Code.webp">
-            <figcaption>Learning to code so I can get a better career!</figcaption>
-            <figure>
+        <p>This website is awesome</p>
+        <button>Sign Up</button>
+      </div>
+      <img
+        src="./assets/images/web-development-gb2e3fcd47_1280.png"
+        alt="picture of code on computer"
+        class="title-img"
+      />
+    </section>
+    <main class="info">
+      <h2>Some random information.</h2>
+      <nav>
+        <div class="card">
+          <img
+            src="/assets/images/linux.jpg"
+            alt="Picture of linux penguin"
+            class="pic"
+          />
+          <p>First I started with linux, learning terminal and git commands.</p>
+        </div>
+        <div class="card">
+          <img
+            src="assets/images/html.jpg"
+            alt="picture of letters spelling html"
+            class="pic"
+          />
+          <p>Next I learned how to make a basic website with HTML.</p>
+        </div>
+        <div class="card">
+          <img
+            src="/assets/images/css.jpg"
+            alt="picture of css logo"
+            class="pic"
+          />
+          <p>I then learned how to add style to websites with CSS.</p>
+        </div>
+        <div class="card">
+          <img
+            src="/assets/images/javascript-g5f8138911_1280.png"
+            alt="picture of Javascript logo"
+            class="pic"
+          />
+          <p>
+            Next, I'll be learning how to make websites interactive with
+            JavaScript!
+          </p>
+        </div>
+      </nav>
     </main>
+    <article class="quote">
+      <blockquote>
+        <p>Something deep.</p>
+        <p>-Me</p>
+      </blockquote>
+    </article>
 
     <footer>
-
+      <p>Copyright &copy Domonique C. 2023</p>
     </footer>
-
-</body>
-
+  </body>
 </html>

@@ -1,0 +1,57 @@
+body{
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+}
+.logo {
+    border-radius: 50%;
+    width: 75px;
+    height: 75px;
+}
+
+.pic {
+    height: 150px;
+    width: 150px;
+    border-radius: 20%;
+}
+
+header, ul, nav, section {
+    display: flex;
+}
+
+header {
+    justify-content: space-between;
+}
+
+
+
+ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.title-img {
+    height: 250px;
+}
+
+nav {
+    flex: 1;
+    justify-content: center;
+    text-align: center;
+    flex-wrap: wrap;
+    gap: 2rem;
+    margin: 16px;
+
+}
+
+footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.card {
+    height: 200px;
+    width: 175px;
+}
