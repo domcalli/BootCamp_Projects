@@ -9,35 +9,34 @@
   </head>
 
   <body>
-    <div class="container">
-      <header>
-        <div class="top-nav">
-          <img src="/assets/images/logo.png" class="logo" alt="Logo" />
-          <ul>
-            <li><a href="https://github.com/">Github</a></li>
-            <li><a href="#">Portfolio</a></li>
-            <li><a href="#contact">Contact</a></li>
-          </ul>
-        </div>
-        <section class="title">
-          <div class="intro">
-            <h1>This website is awesome</h1>
-            <p>
-              This website has some subtext that goes here under the main site
-              title. It's a smaller font and the color is lower.
-            </p>
-            <button>Sign Up</button>
-          </div>
-          <img
-            src="./assets/images/web-development-gb2e3fcd47_1280.png"
-            alt="picture of code on computer"
-            class="title-img"
-          />
-        </section>
-      </header>
-      <main class="info">
-        <h2>Some random information.</h2>
-        <nav>
+    
+    <header>
+      <h3>Header Logo<h3/>
+       <nav>
+          <li><a href="https://github.com/">Github</a></li>
+          <li><a href="#">Portfolio</a></li>
+          <li><a href="#contact">Contact</a></li>
+       </nav>
+    </header>   
+       
+    <section class="hero">
+      <div class="hero-text">
+        <h1>This website is awesome</h1>
+        <p>
+          This website has some subtext that goes here under the main site
+          title. It's a smaller font and the color is lower.
+        </p>
+        <button class="hero-btn">Sign Up</button>
+      </div>
+        <img
+         src="./assets/images/web-development-gb2e3fcd47_1280.png"
+         alt="picture of code on computer"
+         class="hero-img"/>      
+    </section>
+        
+    <section class="information"> 
+      <h2>Some random information.</h2>
+        <ul>
           <div class="card">
             <img
               src="/assets/images/linux.jpg"
@@ -75,18 +74,33 @@
               JavaScript!
             </p>
           </div>
-        </nav>
-      </main>
-      <article class="quote">
-        <blockquote>
-          <p>Something deep.</p>
-          <p>-Me</p>
-        </blockquote>
-      </article>
+        </ul>
+      </section>  
+       
+      <section class="quote">
+        <div>
+          <p class="quote-text">Something deep. Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptate eligendi maxime nostrum doloremque delectus inventore? Eaque neque error hic, doloribus blanditiis dicta voluptate commodi ab explicabo aspernatur non deserunt corporis?</p>
+        </div>
+        <figcaption>-Me</figcaption>
+      </section>
+      
+      <section class="sign-up">
+        <div class="call-container">
+          <div class="call">
+            <p>Call to action! It's time!</p>
+            <p>
+              Sign up for our product by clicking that button right over there!
+            </p>
+          </div>
+          <button class="call-btn">Sign Up</button>
+      </div> 
+        
+      </section>
 
       <footer>
         <p>Copyright &copy Domonique C. 2023</p>
       </footer>
-    </div>
+
+
   </body>
 </html>
