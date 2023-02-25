@@ -7,36 +7,39 @@
     <link rel="stylesheet" type="text/css" href="./assets/css/style.css" />
     <title>Domonique's Landing Page</title>
   </head>
-
+  
   <body>
     
+    <!-- HEADER -->
     <header>
-      <h3>Header Logo<h3/>
-       <nav>
+      <nav>
+        <h3>Header Logo<h3/>
+        <ul class="top-nav">
           <li><a href="https://github.com/">Github</a></li>
           <li><a href="#">Portfolio</a></li>
           <li><a href="#contact">Contact</a></li>
-       </nav>
-    </header>   
-       
-    <section class="hero">
-      <div class="hero-text">
-        <h1>This website is awesome</h1>
-        <p>
-          This website has some subtext that goes here under the main site
-          title. It's a smaller font and the color is lower.
-        </p>
-        <button class="hero-btn">Sign Up</button>
-      </div>
+        </ul>  
+      </nav>
+      <section class="hero">
+        <div class="hero-text">
+          <h1>This website is awesome</h1>
+          <p>
+            This website has some subtext that goes here under the main site
+            title. It's a smaller font and the color is lower.
+          </p>
+          <button class="hero-btn">Sign Up</button>
+        </div>
         <img
          src="./assets/images/web-development-gb2e3fcd47_1280.png"
          alt="picture of code on computer"
          class="hero-img"/>      
-    </section>
-        
-    <section class="information"> 
+      </section>
+    </header>    
+    
+    <!-- RANDOM INFO -->
+    <main class="information"> 
       <h2>Some random information.</h2>
-        <ul>
+        <ul class="cards">
           <div class="card">
             <img
               src="/assets/images/linux.jpg"
@@ -75,15 +78,17 @@
             </p>
           </div>
         </ul>
-      </section>  
+      </main>  
        
+      <!-- QUOTE -->
       <section class="quote">
-        <div>
-          <p class="quote-text">Something deep. Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptate eligendi maxime nostrum doloremque delectus inventore? Eaque neque error hic, doloribus blanditiis dicta voluptate commodi ab explicabo aspernatur non deserunt corporis?</p>
+        <div class="quote-text">
+          <p class="">Something deep. Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptate eligendi maxime nostrum doloremque delectus inventore? Eaque neque error hic, doloribus blanditiis dicta voluptate commodi ab explicabo aspernatur non deserunt corporis?</p>
+          <figcaption>-Me</figcaption>
         </div>
-        <figcaption>-Me</figcaption>
       </section>
       
+      <!-- CALL TO ACTION -->
       <section class="sign-up">
         <div class="call-container">
           <div class="call">
@@ -92,15 +97,14 @@
               Sign up for our product by clicking that button right over there!
             </p>
           </div>
-          <button class="call-btn">Sign Up</button>
-      </div> 
-        
+            <button class="call-btn">Sign Up</button>
+        </div>   
       </section>
 
+      <!-- FOOTER -->
       <footer>
         <p>Copyright &copy Domonique C. 2023</p>
       </footer>
-
 
   </body>
 </html>
